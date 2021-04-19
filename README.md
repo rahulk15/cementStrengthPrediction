@@ -89,9 +89,9 @@ bear the road that they are design to bear. that's the reason we need compressiv
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/code%20of%20log%20transformation.png" alt="command">
 </p>
-<br>
-#### After Data transformation. a Data is in lot better shape than the previous
+
 <p align="center">
+#### After Data transformation. a Data is in lot better shape than the previous
 <img src="https://github.com/rahulk15/images/blob/main/log%20transfromation.png" alt="command">
 </p>
 
