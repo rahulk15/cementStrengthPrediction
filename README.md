@@ -17,10 +17,9 @@ we have to identify the how much pressure can handle one meter cube of that conc
 * [Correaltion using Heatmap](#correaltion-using-heatmap)
 
 
-
+## [Architecture](#architecture)
 
 ### Training Data Description
-* [Problem Statement](#problem-statement)
 * Architecture
 * Data Description
 * Data Validation 
@@ -139,6 +138,14 @@ Highest correltion betwen features is 0.62
 <br>
 
 
+## Architecture
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/cement%20architecture.png" alt="command">
+</p>
+<br>
+<br>
+<br>
+<br>
 
 
 
