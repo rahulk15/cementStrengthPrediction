@@ -10,6 +10,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 ### EDA
 * [Check the missing values](#Check-the-missing-values)
+* [Data Distribution](#data-distribution)
 
 
 
@@ -64,6 +65,27 @@ bear the road that they are design to bear. that's the reason we need compressiv
   <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20missing%20values.png" alt="command">
 </p>
+<br>
+<br>
+<br>
+<br>
+
+## Data Distribution
+
+* For Some column there is some skewness present in the data
+  <p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/cement%20Data%20Dirsibution.png" alt="command">
+</p>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
 
 
 
