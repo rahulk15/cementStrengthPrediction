@@ -5,7 +5,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 # Index
 
 * [Goal of this Project](#goal-of-this-Project)
-* [Glimpse of Dataset](#glimpse-of-datset)
+* [Glimpse of Dataset](#glimpse-of-Dataset)
 
 ### EDA
 
