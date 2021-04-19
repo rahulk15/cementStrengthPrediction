@@ -154,7 +154,7 @@ Highest correltion betwen features is 0.62
 #### corresponds to the order of numerals along the rows of the database. 
 
 
-|#### Name  	|#### Data Type   	|#### Measurement 	|#### Description|
+ Name  	 Data Type   	 Measurement 	 Description|
 | -------------------| ------------- | ------------- |-----------|
 |Cement (component 1)|quantitative|kg in a m3 mixture|Input Variable|
 | Blast Furnace Slag (component 2)  | quantitative  |kg in a m3 mixture|Input Variable-- Blast furnace slag is a nonmetallic coproduct produced in the process. It consists 								primarily of silicates, aluminosilicates, and calcium-alumina-silicates|
@@ -165,7 +165,17 @@ Highest correltion betwen features is 0.62
 |Fine Aggregate (component 7)|quantitative|kg in a m3 mixture|Input Variable—Similar to coarse aggregate, the constitution is much finer.|
 |Age|quantitative|Day (1~365)|Input Variable|
 |Concrete compressive strength|	quantitative|MPa|Output Variable|
+<br>
+<br>
+<br>
+<br>
 
+
+## Data Validation 
+#### Apart from training files, we also require a "schema" file from the client, which contains all the relevant information about the training files such as: Name of the files, Length of Date value in FileName, Length of Time value in FileName, Number of Columns, Name of the Columns, and their datatype.
+### In this step, we perform different sets of validation on the given set of training files.  
+#### 1. Name Validation- We validate the name of the files based on the given name in the schema file. We have created a regex pattern as per the name given in the schema file to use for validation. After validating the pattern in the name, we check for the length of date in the file name as well as the length of time in the file name. If all the values are as per requirement, we move such files to "Good_Data_Folder" else we move such files to "Bad_Data_Folder."
+#### 2. Number of Columns - We validate the number of columns present in the files, and if it doesn't match with the value given in the schema file, then the file is moved to "Bad_Data_Folder."
 
 
 
