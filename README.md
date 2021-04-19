@@ -20,7 +20,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 ### Training Data Description
 * [Architecture](#architecture)
-* Data Description(#data-description)
+* [Data Description](#data-description)
 * Data Validation 
 * Data Insertion in Database
 * Model Training 
@@ -154,13 +154,13 @@ Highest correltion betwen features is 0.62
 #### corresponds to the order of numerals along the rows of the database. 
 
 
-| Name  | Data Type | Measurement  |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |		|
-| Content Cell  | Content Cell  |		|
-| First Header  | Second Header |		|
-| Content Cell  | Content Cell  |		|
-| Content Cell  | Content Cell  |		|
+| Name  	| Data Type   	| Measurement 	|Description|
+| -------------------| ------------- | ------------- |-----------|
+|Cement (component 1)|quantitative|kg in a m3 mixture|Input Variable|
+| Content Cell  | Content Cell  |		|	    |
+| First Header  | Second Header |		|	    |
+| Content Cell  | Content Cell  |		|	    |
+| Content Cell  | Content Cell  |		|	    |
 
 
 
@@ -172,13 +172,4 @@ Highest correltion betwen features is 0.62
   <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/Screenshot%202021-04-16%20223124.png" alt="command">
 </p>
-
-
-| First Header  | Second Header | First Header  |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |		|
-| Content Cell  | Content Cell  |		|
-| First Header  | Second Header |		|
-| Content Cell  | Content Cell  |		|
-| Content Cell  | Content Cell  |		|
 
