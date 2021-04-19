@@ -13,6 +13,8 @@ we have to identify the how much pressure can handle one meter cube of that conc
 * [Data Distribution](#data-distribution)
 * [Data Transformation](#data-transformation)
 * [check for outliers](#check-for-outliers) 
+* [Features related with Target column](#features-related-with-target-column)
+* [Correaltion using Heatmap](#correaltion-using-heatmap)
 
 
 
@@ -113,6 +115,30 @@ bear the road that they are design to bear. that's the reason we need compressiv
 <br>
 <br>
 <br>
+
+
+## Features related with Target column
+#### Well the relationship doesn't look particularly linear but we will try using Linear Regression and see how it works on our data. We will also Random forest regressor and compare our results from both the models.
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/cement%20correltion.png" alt="command">
+</p>
+<br>
+<br>
+<br>
+<br>
+
+## Correaltion using Heatmap
+Highest correltion betwen features is 0.62
+#### None of our columns seem to be correlated.
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/cement%20coreation%20with%20headmap.png" alt="command">
+</p>
+<br>
+<br>
+<br>
+<br>
+
+
 
 
 
