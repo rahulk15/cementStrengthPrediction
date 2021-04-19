@@ -45,6 +45,27 @@ we have to identify the how much pressure can handle one meter cube of that conc
 	bear the road that they are design to bear. that's the reason we need compressive strength of cement.
   problem statement is based on quantity of different materials**
   
+  
+  
+  
+  
+  
+
+
+
+## Check the missing values
+
+* There is no missing value
+  <p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/cement%20missing%20values.png" alt="command">
+</p>
+
+
+
+
+
+
+
 ## Glimpse of Dataset
   <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/Screenshot%202021-04-16%20223124.png" alt="command">
