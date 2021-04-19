@@ -4,7 +4,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 # Index
 
-* [goal-of-this-Project](#goal-of-this-Project)
+* [Goal-of-this-Project](#goal-of-this-Project)
 
 ### EDA
 
@@ -35,7 +35,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 ### compressive strength: **how much pressure that one meter cube of that concrete block can handle**
 <br>
 
-## goal-of-this-Project
+## Goal-of-this-Project
 ### why we need this ?
 **if you are building something very tall building, bridges. they need to handle lot of pressure
 	in that case if the block is not going to good. then your structure wont be durable . they wont be able
