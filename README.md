@@ -157,8 +157,8 @@ Highest correltion betwen features is 0.62
 | Name  	| Data Type   	| Measurement 	|Description|
 | -------------------| ------------- | ------------- |-----------|
 |Cement (component 1)|quantitative|kg in a m3 mixture|Input Variable|
-| Content Cell  | Content Cell  |		|	    |
-| First Header  | Second Header |		|	    |
+| Blast Furnace Slag (component 2)  | quantitative  |kg in a m3 mixture|Input Variable-- Blast furnace slag is a nonmetallic coproduct produced in the process. It consists 								primarily of silicates, aluminosilicates, and calcium-alumina-silicates|
+| Blast Furnace Slag (component 2)  |quantitative|kg in a m3 mixture|Input Variable- it is a coal combustion product that is composed of the particulates (fine particles of 											burned fuel) that are driven out of coal-fired boilers together with the flue gases. |
 | Content Cell  | Content Cell  |		|	    |
 | Content Cell  | Content Cell  |		|	    |
 
