@@ -32,9 +32,9 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 ## Problem Statement
 ### our problem statement is to predict the compressive strength of a cement block
-<br>
 
 ### compressive strength: **how much pressure that one meter cube of that concrete block can handle**
+<br>
 <br>
 
 ## Goal of this Project
