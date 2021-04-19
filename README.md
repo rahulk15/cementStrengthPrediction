@@ -154,7 +154,7 @@ Highest correltion betwen features is 0.62
 #### corresponds to the order of numerals along the rows of the database. 
 
 
-| Name  	| Data Type   	| Measurement 	|Description|
+|* Name  	|* Data Type   	|* Measurement 	|* Description|
 | -------------------| ------------- | ------------- |-----------|
 |Cement (component 1)|quantitative|kg in a m3 mixture|Input Variable|
 | Blast Furnace Slag (component 2)  | quantitative  |kg in a m3 mixture|Input Variable-- Blast furnace slag is a nonmetallic coproduct produced in the process. It consists 								primarily of silicates, aluminosilicates, and calcium-alumina-silicates|
@@ -163,12 +163,8 @@ Highest correltion betwen features is 0.62
 | Superplasticizer (component 5)  | quantitative|kg in a m3 mixture|Input Variable--Superplasticizers (SP's), also known as high range water reducers, are additives used in 								making high strength concrete. Their addition to concrete or mortar allows the reduction of the water to cement ratio 								without negatively affecting the workability of the mixture, and enables the production of self-consolidating concrete 									and high performance concrete|
 |Coarse Aggregate (component 6)|quantitative	|kg in a m3 mixture|Input Variable-- construction aggregate, or simply "aggregate", is a broad category of coarse to medium 					grained particulate material used in construction, including sand, gravel, crushed stone, slag, recycled concrete and geosynthetic aggregates|
 |Fine Aggregate (component 7)|quantitative|kg in a m3 mixture|Input Variable—Similar to coarse aggregate, the constitution is much finer.|
-|	|	|	|	|
-|	|	|	|	|
-|	|	|	|	|
-|	|	|	|	|
-|	|	|	|	|
-|	|	|	|	|
+|Age|quantitative|Day (1~365)|Input Variable|
+|Concrete compressive strength|	quantitative|MPa|Output Variable|
 
 
 
