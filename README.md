@@ -12,6 +12,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 * [Check the missing values](#Check-the-missing-values)
 * [Data Distribution](#data-distribution)
 * [Data Transformation](#data-transformation)
+* [check for outliers](#check-for-outliers) 
 
 
 
@@ -94,6 +95,20 @@ bear the road that they are design to bear. that's the reason we need compressiv
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/log%20transfromation.png" alt="command">
 </p>
+<br>
+<br>
+<br>
+<br>
+
+## check for outliers
+#### mostly our data is good. very less outliers are there.so don't need to remove
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/outliers.png" alt="command">
+</p>
+<br>
+<br>
+<br>
+<br>
 
 
 
