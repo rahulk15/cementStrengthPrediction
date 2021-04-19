@@ -15,8 +15,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 
 ### Training Data Description
-* [Demo project](#demo-project)
-* Problem Statement
+* [Problem Statement](#problem-statement)
 * Architecture
 * Data Description
 * Data Validation 
@@ -31,7 +30,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 ## Demo project
 
-## Problem statement
+## Problem Statement
 ### our problem statement is to predict the compressive strength of a cement block
 <br>
 
