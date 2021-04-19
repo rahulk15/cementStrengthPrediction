@@ -72,7 +72,7 @@ bear the road that they are design to bear. that's the reason we need compressiv
 
 ## Data Distribution
 
-* For Some column there is some skewness present in the data
+## * For Some column there is some skewness present in the data
   <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20Data%20Dirsibution.png" alt="command">
 </p>
