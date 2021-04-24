@@ -89,7 +89,7 @@ bear the road that they are design to bear. that's the reason we need compressiv
 
 ## Data Transformation
 #### To remove this Skewness we are doing log transfromaton
-#### Before doing log transformation, let's add 1 to each value in everycolumn. because some of the coluns of values are Zero so that we don't get exception while calculationg the log for value 0
+#### Before doing log transformation, let's add 1 to each value in everycolumn. because some of the columns of values are Zero so that we don't get exception while calculationg the log for value 0
 * Here is the code :
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/code%20of%20log%20transformation.png" alt="command">
