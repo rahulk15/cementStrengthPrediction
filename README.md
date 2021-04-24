@@ -22,7 +22,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 * [Architecture](#architecture)
 * [Data Description](#data-description)
 * [Data Validation](#data-validation) 
-* Data Insertion in Database
+* [Data Insertion in Database](#data-insertion-in-database)
 * Model Training 
 
 ### Prediction Data Description
@@ -178,15 +178,30 @@ Highest correltion betwen features is 0.62
 #### 2. Number of Columns - We validate the number of columns present in the files, and if it doesn't match with the value given in the schema file, then the file is moved to "Bad_Data_Folder."
 #### 3. Name of Columns - The name of the columns is validated and should be the same as given in the schema file. If not, then the file is moved to "Bad_Data_Folder".
 #### 4. The datatype of columns - The datatype of columns is given in the schema file. This is validated when we insert the files into Database. If the datatype is wrong, then the file is moved to "Bad_Data_Folder".
-#### 5. Null values in columns - <font size ="-1">If any of the columns in a file have all the values as NULL or missing, we discard such a file and move it to "Bad_Data_Folder"</font>
+#### 5. Null values in columns - If any of the columns in a file have all the values as NULL or missing, we discard such a file and move it to "Bad_Data_Folder"
 <br>
 <br>
 <br>
 <br>
 
 ## Data Insertion in Database
-### Here we have used Mongo DB
+### Here we have used Mongo DB for storing csv file
+#### 1. Database Creation and connection - Create a database with the given name passed. If the database is already created, open the connection to the database. 
+#### 2. Collection creation in the database - collection with name - "Good_Data", is created in the database for inserting the files in the "Good_Data_Folder" based on given column names and datatype in the schema file. If the collection is already present, then the new collection is not created and new files are inserted in the already present collection as we want training to be done on new as well as old training files.     
+#### 3. Insertion of files in the collection - All the files in the "Good_Data_Folder" are inserted in the above-created table. If any file has invalid data type in any of the columns, the file is not loaded in the table and is moved to "Bad_Data_Folder".
+<br>
+<br>
+<br>
+<br>
 
+## Model Training 
+#### 1) Data Export from Mongo Db - The data in a stored database is exported as a CSV file to be used for model training.
+#### 2) Data Preprocessing  
+   #### a) Check for null values in the columns. If present, impute the null values using the KNN imputer
+   #### b) transform the features using log transformation
+   #### c) Scale the training and test data separately 
+#### 3) Clustering - KMeans algorithm is used to create clusters in the preprocessed data. The optimum number of clusters is selected by plotting the elbow plot, and for the dynamic selection of the number of clusters, we are using "KneeLocator" function. The idea behind clustering is to implement different algorithms
+ #### To train data in different clusters. The Kmeans model is trained over preprocessed data and the model is saved for further use in prediction.
 
 
 
