@@ -178,7 +178,7 @@ Highest correltion betwen features is 0.62
 #### 2. Number of Columns - We validate the number of columns present in the files, and if it doesn't match with the value given in the schema file, then the file is moved to "Bad_Data_Folder."
 #### 3. Name of Columns - The name of the columns is validated and should be the same as given in the schema file. If not, then the file is moved to "Bad_Data_Folder".
 #### 4. The datatype of columns - The datatype of columns is given in the schema file. This is validated when we insert the files into Database. If the datatype is wrong, then the file is moved to "Bad_Data_Folder".
-#### 5. Null values in columns - <b>If any of the columns in a file have all the values as NULL or missing, we discard such a file and move it to "Bad_Data_Folder".</b>
+#### 5. Null values in columns - <font size ="-1">If any of the columns in a file have all the values as NULL or missing, we discard such a file and move it to "Bad_Data_Folder"</font>
 <br>
 <br>
 <br>
