@@ -174,11 +174,11 @@ Highest correltion betwen features is 0.62
 ## Data Validation 
 #### Apart from training files, we also require a "schema" file from the client, which contains all the relevant information about the training files such as: Name of the files, Length of Date value in FileName, Length of Time value in FileName, Number of Columns, Name of the Columns, and their datatype.
 ### In this step, we perform different sets of validation on the given set of training files.  
-#### 1. Name Validation- We validate the name of the files based on the given name in the schema file. We have created a regex pattern as per the name given in the schema file to use for validation. After validating the pattern in the name, we check for the length of date in the file name as well as the length of time in the file name. If all the values are as per requirement, we move such files to "Good_Data_Folder" else we move such files to "Bad_Data_Folder."
-#### 2. Number of Columns - We validate the number of columns present in the files, and if it doesn't match with the value given in the schema file, then the file is moved to "Bad_Data_Folder."
-#### 3. Name of Columns - The name of the columns is validated and should be the same as given in the schema file. If not, then the file is moved to "Bad_Data_Folder".
-#### 4. The datatype of columns - The datatype of columns is given in the schema file. This is validated when we insert the files into Database. If the datatype is wrong, then the file is moved to "Bad_Data_Folder".
-#### 5. Null values in columns - If any of the columns in a file have all the values as NULL or missing, we discard such a file and move it to "Bad_Data_Folder"
+#### 1. Name Validation- We validate the name of the files based on the given name in the schema file. We have created a regex pattern as per the name given in the schema file to use for validation. After validating the pattern in the name, we check for the length of date in the file name as well as the length of time in the file name. If all the values are as per requirement, we move such files to "Good_Data_Folder" else we move such files to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).
+#### 2. Number of Columns - We validate the number of columns present in the files, and if it doesn't match with the value given in the schema file, then the file is moved to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).
+#### 3. Name of Columns - The name of the columns is validated and should be the same as given in the schema file. If not, then the file is moved to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).
+#### 4. The datatype of columns - The datatype of columns is given in the schema file. This is validated when we insert the files into Database. If the datatype is wrong, then the file is moved to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).
+#### 5. Null values in columns - If any of the columns in a file have all the values as NULL or missing, we discard such a file and move it to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).
 <br>
 <br>
 <br>
@@ -188,7 +188,7 @@ Highest correltion betwen features is 0.62
 ### Here we have used Mongo DB for storing csv file
 #### 1. Database Creation and connection - Create a database with the given name passed. If the database is already created, open the connection to the database. 
 #### 2. Collection creation in the database - collection with name - "Good_Data", is created in the database for inserting the files in the "Good_Data_Folder" based on given column names and datatype in the schema file. If the collection is already present, then the new collection is not created and new files are inserted in the already present collection as we want training to be done on new as well as old training files.     
-#### 3. Insertion of files in the collection - All the files in the "Good_Data_Folder" are inserted in the above-created table. If any file has invalid data type in any of the columns, the file is not loaded in the table and is moved to "Bad_Data_Folder".
+#### 3. Insertion of files in the collection - All the files in the "Good_Data_Folder" are inserted in the above-created table. If any file has invalid data type in any of the columns, the file is not loaded in the table and is moved to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).
 #### Here is an Screen Shot
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/mongodb%20ss.png" alt="command">
@@ -228,10 +228,10 @@ Highest correltion betwen features is 0.62
 ## Data Validation1  
 #### In this step, we perform different sets of validation on the given set of training files.  
 #### 1) Name Validation- We validate the name of the files on the basis of given Name in the schema file. We have created a regex pattern as per the name given in schema file, to use for validation. After validating the pattern in the name, we check for length of date in the file name as well as length of time in the file name. If all the values are as per requirement, we move such files to "Good_Data_Folder" else we move such files to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).
-#### 2) Number of Columns - We validate the number of columns present in the files, if it doesn't match with the value given in the schema file then the file is moved to "Bad_Data_Folder". 
-#### 3) Name of Columns - The name of the columns is validated and should be same as given in the schema file. If not, then the file is moved to "Bad_Data_Folder". 
-#### 4) Datatype of columns - The datatype of columns is given in the schema file. This is validated when we insert the files into Database. If dataype is wrong then the file is moved to "Bad_Data_Folder". 
-#### 5) Null values in columns - If any of the columns in a file has all the values as NULL or missing, we discard such file and move it to "Bad_Data_Folder".  
+#### 2) Number of Columns - We validate the number of columns present in the files, if it doesn't match with the value given in the schema file then the file is moved to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw). 
+#### 3) Name of Columns - The name of the columns is validated and should be same as given in the schema file. If not, then the file is moved to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw). 
+#### 4) Datatype of columns - The datatype of columns is given in the schema file. This is validated when we insert the files into Database. If dataype is wrong then the file is moved to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).. 
+#### 5) Null values in columns - If any of the columns in a file has all the values as NULL or missing, we discard such file and move it to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).  
 <br>
 <br>
 <br>
@@ -242,7 +242,7 @@ Highest correltion betwen features is 0.62
 ## Data Insertion in Database 
 #### 1) Database Creation and connection - Create database with the given name passed. If the database is already created, open the connection to the database. 
 #### 2) Table creation in the database - Table with name - "Good_Data", is created in the database for inserting the files in the "Good_Data_Folder" on the basis of given column names and datatype in the schema file. If table is already present then new table is not created, and new files are inserted the already present table as we want training to be done on new as well old training files.     
-#### 3) Insertion of files in the table - All the files in the "Good_Data_Folder" are inserted in the above-created table. If any file has invalid data type in any of the columns, the file is not loaded in the table and is moved to "Bad_Data_Folder".
+#### 3) Insertion of files in the table - All the files in the "Good_Data_Folder" are inserted in the above-created table. If any file has invalid data type in any of the columns, the file is not loaded in the table and is moved to ["Bad_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Bad_Raw).
 <br>
 <br>
 <br>
