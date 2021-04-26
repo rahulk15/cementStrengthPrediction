@@ -203,6 +203,11 @@ Highest correltion betwen features is 0.62
 #### 3) Clustering - KMeans algorithm is used to create clusters in the preprocessed data. The optimum number of clusters is selected by plotting the elbow plot, and for the dynamic selection of the number of clusters, we are using "KneeLocator" function. The idea behind clustering is to implement different algorithms
  #### To train data in different clusters. The Kmeans model is trained over preprocessed data and the model is saved for further use in prediction.
 #### 4) Model Selection - After clusters are created, we find the best model for each cluster. We are using two algorithms, "Random forest Regressor" and “Linear Regression”. For each cluster, both the algorithms are passed with the best parameters derived from GridSearch. We calculate the Rsquared scores for both models and select the model with the best score. Similarly, the model is selected for each cluster. All the models for every cluster are saved for use in prediction. 
+
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/mongodb%20ss.png" alt="command">
+</p>
+
 <br>
 <br>
 <br>
