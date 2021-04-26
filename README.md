@@ -30,6 +30,10 @@ we have to identify the how much pressure can handle one meter cube of that conc
 * Data Insertion in Database 
 * Prediction 
 
+### Logging
+- ### Each and every step it will log in Mongo Db
+* Training Logs
+* Prediction Logs
 
 ## Demo project
 
