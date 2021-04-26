@@ -189,6 +189,10 @@ Highest correltion betwen features is 0.62
 #### 1. Database Creation and connection - Create a database with the given name passed. If the database is already created, open the connection to the database. 
 #### 2. Collection creation in the database - collection with name - "Good_Data", is created in the database for inserting the files in the "Good_Data_Folder" based on given column names and datatype in the schema file. If the collection is already present, then the new collection is not created and new files are inserted in the already present collection as we want training to be done on new as well as old training files.     
 #### 3. Insertion of files in the collection - All the files in the "Good_Data_Folder" are inserted in the above-created table. If any file has invalid data type in any of the columns, the file is not loaded in the table and is moved to "Bad_Data_Folder".
+#### Here is an Screen Shot
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/mongodb%20ss.png" alt="command">
+</p>
 <br>
 <br>
 <br>
@@ -203,11 +207,6 @@ Highest correltion betwen features is 0.62
 #### 3) Clustering - KMeans algorithm is used to create clusters in the preprocessed data. The optimum number of clusters is selected by plotting the elbow plot, and for the dynamic selection of the number of clusters, we are using "KneeLocator" function. The idea behind clustering is to implement different algorithms
  #### To train data in different clusters. The Kmeans model is trained over preprocessed data and the model is saved for further use in prediction.
 #### 4) Model Selection - After clusters are created, we find the best model for each cluster. We are using two algorithms, "Random forest Regressor" and “Linear Regression”. For each cluster, both the algorithms are passed with the best parameters derived from GridSearch. We calculate the Rsquared scores for both models and select the model with the best score. Similarly, the model is selected for each cluster. All the models for every cluster are saved for use in prediction. 
-
-<p align="center">
-<img src="https://github.com/rahulk15/images/blob/main/mongodb%20ss.png" alt="command">
-</p>
-
 <br>
 <br>
 <br>
