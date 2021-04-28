@@ -28,7 +28,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 ### Prediction Data Description
 * [Data Validation](#data-validation1)  
 * [Data Insertion in Database](#data-insertion-in-database1) 
-* Prediction 
+* [Prediction](#prediction)
 
 ### Logging
 - ### Each and every step it will log in Mongo Db
