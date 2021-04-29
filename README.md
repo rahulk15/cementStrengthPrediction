@@ -32,8 +32,8 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 ### Logging
 - ### Each and every step it will log in Mongo Db
-* Training Logs
-* Prediction Logs
+* [Training Logs](#training-logs)
+* [Prediction Logs](#prediction-logs)
 
 ## Demo project
 
@@ -276,9 +276,18 @@ Highest correltion betwen features is 0.62
 <br>
 <br>
 
-
-
-
+# Logging
+## Training Logs
+- ### Each and Every Step or every action it generartes logs and store it in Mongo DB.so we can know in what time which actions has done or where it is giving me a error at what time
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/cement%20training%20logs.png" alt="command">
+</p>
+- ## Fetch the data from mongo db
+## Prediction Logs
+- ### Each and Every Step or every action it generartes logs and store it in Mongo DB.so we can know in what time which actions has done or where it is giving me a error at what time
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/cement%20prediction%20logs.png" alt="command">
+</p>
 
 
 
