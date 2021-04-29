@@ -247,6 +247,10 @@ Highest correltion betwen features is 0.62
 #### 1) Database Creation and connection - Create database with the given name passed. If the database is already created, open the connection to the database. 
 #### 2) Table creation in the database - Table with name - "Good_Data", is created in the database for inserting the files in the "Good_Data_Folder" on the basis of given column names and datatype in the schema file. If table is already present then new table is not created, and new files are inserted the already present table as we want training to be done on new as well old training files.     
 #### 3) Insertion of files in the table - All the files in the ["Good_Data_Folder"](https://github.com/rahulk15/cementStrengthPrediction/tree/main/Good_Raw) are inserted in the above-created table. If any file has invalid data type in any of the columns, the file is not loaded in the table and is moved to "Bad_Data_Folder".
+
+<p align="center">
+<img src="https://github.com/rahulk15/images/blob/main/cement%20predmongo%20ss.png" alt="command">
+</p>
 <br>
 <br>
 <br>
