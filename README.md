@@ -278,18 +278,18 @@ Highest correltion betwen features is 0.62
 
 # Logging
 ## Training Logs
-- Each and Every Step or every action it generartes logs and store it in Mongo DB.so we can know in what time which actions has done or where it is giving me a error at what time
+- Each and Every Step or every action it generartes logs and store it in Mongo DB. so we can know in what time which actions has done or where it is giving me a error at what time
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20training%20logs.png" alt="command">
 </p>
-- ## Fetch the data from mongo db
+- Fetch the data from mongo db
 <br>
 <br>
 <br>
 <br>
 <br>
 ## Prediction Logs
-- Each and Every Step or every action it generartes logs and store it in Mongo DB.so we can know in what time which actions has done or where it is giving me a error at what time
+- Each and Every Step or every action it generartes logs and store it in Mongo DB. so we can know in what time which actions has done or where it is giving me a error at what time
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20prediction%20logs.png" alt="command">
 </p>
