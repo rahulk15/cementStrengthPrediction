@@ -1,7 +1,7 @@
 # cementStrengthPrediction
 we have to identify the how much pressure can handle one meter cube of that concrete block
 <br><br>
-# [DEMO](demo)
+# [DEMO](#demo)
 # Index
 
 * [Problem statement](#problem-statement)
