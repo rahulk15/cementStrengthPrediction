@@ -47,7 +47,8 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 ## Goal of this Project
 ### Why we need this?
-**Suppose you are building something very tall building, bridges. They need to handle a lot of pressure if the block is not going to good. Then your structure won't be durable. They won't be able to bear the road that they are designed to hold. That's the reason we need the compressive strength of cement. the problem statement is based on the quantity of different materials**
+**Suppose you are building something very tall building, bridges. They need to handle a lot of pressure if the block is not going to good. Then your structure won't be durable.
+They won't be able to bear the road that they are designed to hold. That's the reason we need the compressive strength of cement. the problem statement is based on the quantity of different materials**
 <br>
 <br>
 <br>
@@ -79,7 +80,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 ## Data Distribution
 
-### For Some column there is some skewness present in the data
+### For Some column, there is some skewness present in the data.
   <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20Data%20Dirsibution.png" alt="command">
 </p>
@@ -89,8 +90,8 @@ we have to identify the how much pressure can handle one meter cube of that conc
 <br>
 
 ## Data Transformation
-#### To remove this Skewness we are doing log transfromaton
-#### Before doing log transformation, let's add 1 to each value in everycolumn. because some of the columns of values are Zero so that we don't get exception while calculationg the log for value 0
+#### To remove this Skewness, we are doing log transformation.
+#### Before doing log transformation, let's add 1 to each value in every column. because some of the columns of values are Zero so that we don't get an exception while calculating the log for value 0
 * Here is the code :
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/code%20of%20log%20transformation.png" alt="command">
@@ -106,7 +107,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 <br>
 
 ## check for outliers
-#### mostly our data is good. very less outliers are there.so don't need to remove
+#### Mostly our data is good. very less outliers are there. so don't need to remove
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/outliers.png" alt="command">
 </p>
@@ -117,7 +118,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 
 ## Features related with Target column
-#### Well the relationship doesn't look particularly linear but we will try using Linear Regression and see how it works on our data. We will also Random forest regressor and compare our results from both the models.
+#### The relationship doesn't look particularly linear, but we will try using Linear Regression and see how it works on our data. We will also use a Random forest regressor and compare our results from both models.
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20correltion.png" alt="command">
 </p>
@@ -128,7 +129,7 @@ we have to identify the how much pressure can handle one meter cube of that conc
 
 ## Correaltion using Heatmap
 Highest correltion betwen features is 0.62
-#### None of our columns seem to be correlated.
+#### None of our columns seems to be correlated.
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20coreation%20with%20headmap.png" alt="command">
 </p>
@@ -275,7 +276,7 @@ Highest correltion betwen features is 0.62
 
 # Logging
 ## Training Logs
-- Each and Every Step or every action it generartes logs and store it in Mongo DB. so we can know in what time which actions has done or where it is giving me a error at what time.
+- Each and Every Step or every action it generartes logs and store it in Mongo DB. so we can know at what time which actions have done or where it is giving me an error.
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20training%20logs.png" alt="command">
 </p>
@@ -287,7 +288,7 @@ Highest correltion betwen features is 0.62
 <br>
 
 ## Prediction Logs
-- Each and Every Step or every action it generartes logs and store it in Mongo DB. so we can know in what time which actions has done or where it is giving me a error at what time.
+- Each and Every Step or every action it generartes logs and store it in Mongo DB. so we can know at what time which actions have done or where it is giving me an error.
 <p align="center">
 <img src="https://github.com/rahulk15/images/blob/main/cement%20prediction%20logs.png" alt="command">
 </p>
