@@ -1,7 +1,7 @@
 # cementStrengthPrediction
 we have to identify the how much pressure can handle one meter cube of that concrete block
 <br><br>
-
+# [DEMO](demo)
 # Index
 
 * [Problem statement](#problem-statement)
@@ -35,7 +35,8 @@ we have to identify the how much pressure can handle one meter cube of that conc
 * [Training Logs](#training-logs)
 * [Prediction Logs](#prediction-logs)
 
-## Demo project
+## Demo
+- Check Here Live Demo: (https://rocky-peak-81548.herokuapp.com/)
 
 ## Problem Statement
 ### our problem statement is to predict the compressive strength of a cement block
